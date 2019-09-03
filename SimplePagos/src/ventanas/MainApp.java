@@ -22,13 +22,13 @@ import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 import javax.swing.event.HyperlinkEvent;
 import javax.swing.event.HyperlinkListener;
-import sun.java2d.loops.ProcessPath.ProcessHandler;
 
 
 /**
  *
  * @author programadorbipolar
  */
+@SuppressWarnings("serial")
 public class MainApp extends javax.swing.JFrame {
 
     /**
