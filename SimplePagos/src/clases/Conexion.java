@@ -14,9 +14,9 @@ import java.sql.Statement;
 public class Conexion {   
     
     public static String bd = "smppagos";
-    public static String login = "root";
-    public static String password = "";
-    public static String url = "jdbc:mysql://localhost:3306/" + Conexion.bd;
+    public static String login = "sa";
+    public static String password = "AA307lj";
+    public static String url = "jdbc:mysql://192.168.100.109:3306/" + Conexion.bd;
     public Statement stmt;//consultas
     public static Connection con;
     public ResultSet rs;
